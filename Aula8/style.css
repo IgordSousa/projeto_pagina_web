@@ -1,0 +1,129 @@
+body{
+    background-color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.cabecario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 120px;
+    border: 1px solid  #9f9e9e;
+}
+
+
+.cabecario-logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cabecario-logo-icon{
+    background-color: #1181F1;
+    border-radius: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 120px;
+    gap: 20px;
+}
+
+.info-esquerda{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-esquerda-div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info-esquerda-texto{
+    display: flex;
+    gap: 20px;
+    color: #191919;
+    font-weight: bold;
+    
+}
+
+.span{
+    color: #9f9e9e;
+}
+
+.info-esquerda-h2{
+    font-size: 46px;
+    color: #191919;
+    max-width: 400px;
+    line-height: 1.2;
+}
+
+.info-esquerda-texto{
+    color: #9f9e9e;
+    font-size: 16px;
+    line-height: 1.4;
+    max-width: 600px;
+}
+
+.h3{
+    font-size: 20px;
+    color: #191919;
+    font-weight: bold;
+}
+
+.info-esquerda-lista{
+display: flex;
+align-items: center;
+gap: 8px;
+}
+
+.info-esquerda-lista-item{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 10px;
+}
+
+.info-esquerda-lista-item-numero-diferente{
+    color: #9f9e9e;
+    border:2px solid #9f9e9e;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.info-esquerda-lista-item-numero{
+    color: #191919;
+    border:2px solid #9f9e9e;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.info-esquerda-lista-item-texto{
+    font-size: 10px;
+}
+
+.botao{
+    font-weight: bold;
+    font-size: 24px;
+    border: 2px solid rgb(61, 71, 81);
+    padding: 15px 30px;
+    text-decoration: none;
+    color: rgb(61, 71, 81);
+    max-width: 30%;
+
+}
+    
+
